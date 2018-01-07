@@ -17,7 +17,7 @@ print(a())
 print(a(4))
 print(a(4)())
 
-l = list(range(101))
+l = list(range(1000000))
 r = fact
 for i in l[:100]:
     r = r(i)
